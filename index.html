@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assignment3.js"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Learning About Events</h1>
+    </header>
+    
+    <main>
+        <div class="row">
+            <div class="col"></div>
+            <img id="img1" class="col" src="" alt="image 1" >
+            <img id="img2" class="col" src="" alt="image 2">
+            <img id="img3" class="col" src="" alt="image 3">
+            <div class="col"></div>
+        </div>
+    
+        <div id="button">
+            <button onclick="randomImage()">Randomize!</button>
+        </div>
+    
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-4">Time until automatic refresh:  <span id="time"> 10.0</span></div>
+            <div class="col-3" id="update">Image has updated 0 times.</div>
+        </div>
+    
+        
+        <label for="timer2">Timeout (500-10000ms)</label><br>
+        <input type="number" id="timer2" oninput="NewTimer()">
+    </main>
+    
+    <footer>
+        <div id="footer">
+            <p>Khushman Kaur</p>
+            <p>000887773</p>
+        </div>
+    </footer>
+
+</body>
+</html>

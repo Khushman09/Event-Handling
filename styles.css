@@ -1,0 +1,46 @@
+.spin {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes spin {
+    0% { rotate: 0deg; }
+    100% { rotate: 360deg; }
+}
+
+span#time{
+    color: white;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    padding: 40px 10px;
+}
+div#button{
+    text-align: center;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 152, 210);
+    color: white;
+    padding: 5px 100px;
+    margin: 30px 5px 10px 5px;
+    
+}
+label{
+    margin-left: 86px;
+}
+input{
+    margin-left: 20px;
+    padding: 1px 6px 1px 95px;
+}
+
+div#footer{
+    text-align: center;
+    margin-top: 70px;
+    border-top: 2px solid black;
+    padding-top: 10px;
+}
